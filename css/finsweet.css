@@ -1,0 +1,558 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Manrope', sans-serif;
+}
+
+.nav-bar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+}
+
+.container {
+    width: 85%;
+    margin: 0 auto;
+}
+
+li {
+    /* float: right; */
+    padding: 0px 15px;
+    display: inline-block;
+}
+
+li a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.list {
+    display: flex;
+    align-items:center;
+}
+
+.ordered {
+    display: flex;
+    border-right: 1px solid grey;
+    margin-right: 10px;
+}
+
+.list.right-section {
+    margin-right: 0px;
+    align-items: center;
+}
+
+.header {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.banner-wrapper{
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    margin-top: 60px;
+}
+
+.banner-heading  {
+    font-weight: 200;
+    font-size: 30px;
+    width: 50%;
+    height: 100vh;
+    margin-top: 92px;
+}
+
+h1 {
+    font-weight: 1000;
+    font-size: 45px;
+}
+
+.banner-image {     
+    background-image: url(../img/sten-rademaker-UZUzvJEvKnI-unsplash.jpg) ; 
+    width: 50%;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 519px;
+}
+
+.logo {
+    /* float: left; */
+    padding-top: 10px;
+    /* padding-left: 50px; */
+    /* width: 100%; */
+}
+
+.bar {
+    display: flex;
+}
+
+.assistance {
+    display: block;
+    /* margin-left: 7px; */
+    /* margin-right: 25px; */
+    margin-top: 10px;
+}
+
+.road {
+    font-size: 14px;
+    font-weight: 500;
+    /* padding-top: 3px; */
+    margin-bottom: 15px;
+    color: grey;
+}
+
+.iconn {
+    /* padding-top: 10px; */
+    padding-left: 10px;
+    padding-right: 5px;
+    font-weight: 600;
+}
+
+.number {
+    font-size: 15px;
+    font-weight: 600;
+    color: black;
+}
+
+/* .your {
+    font-family: bold;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 60px;
+    line-height: 70px;
+} */
+
+.btn {
+    background: #FF6433;
+    border-radius: 12px;
+    border-style: none;
+    padding: 24px 50px;
+    margin-top: 20px;
+}
+
+.button {
+    display: block;
+}
+
+.btn a {
+    text-decoration: none;
+    color: #ffff;
+    font-size: 15px;
+}
+
+.open {
+    display: flex;
+}
+
+.opentext {
+    color: grey;
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 41px;
+    margin-left: 19px;
+}
+
+#openicon {
+    margin-top: 44px;
+    padding-left: 10px;
+}
+
+.opentime {
+    font-size: 16px;
+    margin-left: 60px;
+}
+
+.section2 {
+    background-color: rgba(226, 230, 233, 1);
+    display: flex;
+    /* height: auto; */
+    padding: 70px 0;
+}
+
+.carservices {
+    width: 50%;
+}
+
+.servicetexts {
+    margin-left: 39px;
+    margin-top: 16px;
+}
+
+.mainservice {
+    display: block;
+}
+
+.subservice {
+    display: flex;
+}
+
+.icon-circle {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    width: 41px;
+    height: 41px;
+    background-color: #FFFFFF;
+    border-radius: 50%;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+h2 {
+    margin-bottom: 7px;
+    font-size: 24px;
+}
+
+.more {
+    font-size : 18px;
+    font-weight: 600;
+}
+
+.servicing {
+    width: auto;
+    height: auto;
+    display: flex;
+}
+
+.moreinfo {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-left: 94px;
+}
+
+.quoteinfo {
+    width: 50%;
+}
+
+#location {
+    padding-top: 25px;
+    align-items:flex-end;
+    font-size: 15px;
+    border-radius: 2px;
+    border-style: none;
+    /* margin: 25px 180px; */
+    padding-right: 300px;
+    padding-bottom: 25px;
+    padding-left: 40px;
+}
+
+.info {
+    margin-bottom: 2px;
+}
+
+.process {
+    width: 50%;
+    padding-top: 140px;
+    padding-bottom: 100px;
+}
+
+.wholeprocess {
+    display: flex;
+    align-items: center;
+}
+
+.subquote {
+    color: grey;
+    font-size: 16px;
+}
+
+.mainquote {
+    font-size: 30px;
+}
+
+.quotetexts {
+    margin-bottom: 25px;
+}
+
+.numberone {
+    padding-right: 10px;
+    margin-left: -50px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.quoteservice {
+    display:flex;
+}
+
+.wholequote {
+    display: block;
+}
+
+.redline {
+    margin-left : -27px;
+}
+
+.offering {
+    background-color: rgba(226, 230, 233, 1);
+    text-align: center;
+    padding: 70px 0;
+}
+
+.we-offer {
+    font-weight: 900;
+    /* padding-top: 70px; */
+}
+
+.first-box {
+    border-radius: 50%;
+    padding: 87px ;
+}
+
+.boxx {
+    width: 24.5%;
+    background-color: #fff;
+    margin-top: 40px;
+    margin-right: 5px;
+    height: 232px;
+}
+
+.offeringtexts {
+    font-weight: 700;
+    font-size: 13px;
+    margin-top: 5px;
+}
+
+.serviceboxes {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.box {
+    width: 24.5%;
+    background-color: #fff;
+    margin-top: 5px;
+    margin-right: 5px;
+    height: 232px; 
+}
+
+.group {
+    width: 24.5%;
+    background-color: #ff6433;
+    margin-top: 40px;
+    margin-right: 5px;
+    height: 232px;
+    color: #ffffff;
+}
+
+.learnservice {
+    display: flex;
+    justify-content:flex-end;
+    margin-top: 15px;
+    font-weight: 700;
+    font-size: 13px;
+}
+
+.learn-service {
+    margin-right: 10px;
+}
+
+.queryimage {
+    background-image: url(../img/query-car.png) ;
+    width: 20%;
+    height: 500px;
+    background-repeat: no-repeat;
+}
+
+.query {
+    display: flex;
+    width: 100%;
+    margin-top: 80px;
+}
+
+.queryorange {
+    background-image: url(../img/BG.png);
+    width: 50%;
+    height: 500px;
+    background-repeat: no-repeat;
+    color: #fff;
+    /* text-align: center; */
+    font-size: 40px;
+    font-weight: 700;
+    display: block;
+    justify-content: center;
+    text-align: left;
+    
+}
+
+.contact-para {
+   padding-top: 130px;
+   width: 90%;
+   text-align: center;
+}
+
+.contactbtn {
+    background: #000000;;
+    border-radius: 12px;
+    border-style: none;
+    padding: 24px 50px;
+    margin-top: 45px;
+    margin-left: 65px;
+}
+
+.contactbtn a {
+    text-decoration: none;
+    color: #ffff;
+    font-size: 15px;
+}
+
+.querypart {
+    background-image: url(../img/car-part.jpg);
+    width: 30%;
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.qualifications {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 45px 0px;
+}
+
+.year {
+    color: rgba(102, 28, 231, 1);
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.experience {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.section5 {
+    text-align: center;
+    padding: 70px 0px;
+    background-color: #fafafa;
+}
+
+.brands {
+    font-weight: 600;
+    font-size: 35px;
+}
+
+.logoipsum {
+    display: flex;
+}
+
+.section6 {
+    text-align: center;
+    padding: 70px 0px;
+    background-color: #f2f2f2;
+}
+
+.first-review {
+    width: 35%;
+    background-color: #fff;
+    margin-top: 40px;
+    margin-right: 25px;
+    height: 232px;
+    display: block;
+    text-align: left;
+}
+
+.second-review {
+    width: 35%;
+    background-color: #fff;
+    margin-top: 40px;
+    /* margin-right: 5px; */
+    height: 232px;
+}
+
+.allreviews {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.firstcustomer {
+    border-radius: 30px;
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-right: 10px;
+}
+
+.customer {
+    display: flex;
+}
+
+.customerinfo {
+    display: block;
+    text-align: left;
+}
+
+.joy {
+    margin-right: 70px;
+    font-size: 15px;
+    color: black;
+    margin-top: 37px;
+}
+
+.location {
+    color: grey;
+    margin-right: 70px;
+    margin-top: 5px;
+    font-size: 12px;
+}
+
+.customersreview {
+    font-size: 15px;
+    color: black;
+    margin-left: 30px;
+    margin-top: 20px;
+    text-align: left;
+    font-weight: 700;
+}
+
+.section7 {
+    background-color: #e2e6e9;
+    padding: 70px 0;
+    align-items: center;
+    text-align: center;
+}
+
+.thequestions {
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+}
+
+.aquestion {
+   
+    background-color: #fff;
+    height: 10vh;
+    border-radius: 5px;
+    margin-bottom: 4px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ask {
+    background-color: #FF6433;
+    margin-right: 10px;
+    border: 1px solid #ff6433;
+    margin-top: 10px;
+
+}
+
+.ask a {
+    text-decoration: none;
+    padding: 15px 5px;
+    color: #000000;
+    margin: 10px 0;
+}

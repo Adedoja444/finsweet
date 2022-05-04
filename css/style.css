@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Manrope', sans-serif;
+}
+
+.header-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+}
+
+.container {
+    width: 85%;
+    margin: 0 auto;
+}
+
+.right-section {
+    display: flex;
+    align-items: center;
+}
+
+.right-section ul {
+    list-style: none;
+    display: flex;
+}
+
+.right-section ul li {
+    margin-right: 20px;
+    height: 25px;
+}
+
+.right-section ul li a {
+    text-decoration: none;
+    color: #1E1B1B;
+}
+
+.right-section .navigation {
+    border-right: 2px solid gray;
+    margin-right: 20px;
+}
+
+.header-nav .assistance {
+    display: flex;
+    margin-left: 20px;
+}
+
+.right-section .call-text {
+    padding-left: 10px;
+}
