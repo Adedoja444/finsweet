@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Manrope', sans-serif;
+}
+
+.nav-bar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+}
+
+.container {
+    width: 85%;
+    margin: 0 auto;
+}
+
+li {
+    /* float: right; */
+    padding: 0px 15px;
+    display: inline-block;
+}
+
+li a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.list {
+    display: flex;
+    align-items: center;
+}
+
+.ordered {
+    display: flex;
+    border-right: 1px solid grey;
+    margin-right: 10px;
+}
+
+.list.right-section {
+    margin-right: 0px;
+    align-items: center;
+}
+
+.header {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.bar {
+    display: flex;
+}
+
+.assistance {
+    display: block;
+    /* margin-left: 7px; */
+    /* margin-right: 25px; */
+    margin-top: 10px;
+}
+
+.road {
+    font-size: 14px;
+    font-weight: 500;
+    /* padding-top: 3px; */
+    margin-bottom: 15px;
+    color: grey;
+}
+
+.iconn {
+    /* padding-top: 10px; */
+    padding-left: 10px;
+    padding-right: 5px;
+    font-weight: 600;
+}
+
+.number {
+    font-size: 15px;
+    font-weight: 600;
+    color: black;
+}
+
+.main-service {
+    width: 100%;
+    min-height: 75vh;
+    display: flex;
+    flex-direction: row;
+    margin-top: 60px;
+}
+
+.service-img {
+    background-image: url(../img/mobil.jpg);
+    width: 40%;
+    background-size: cover;
+}
+
+.our-service {
+    background-color: rgba(30, 27, 27, 1);
+    width: 58%;
+    color: #fff;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+}
+
+.initials {
+    color: #fff;
+    /* text-align: center; */
+    font-weight: 600;
+    padding-bottom: 15px;
+    font-size: 30px;
+}
+
+.servicep {
+    text-align: center;
+    padding: 0px 70px;
+}
