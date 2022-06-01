@@ -148,7 +148,7 @@ h1 {
 
 .btn a {
     text-decoration: none;
-    color: #ffff;
+    color: #fff;
     font-size: 15px;
 }
 
@@ -730,6 +730,7 @@ h2 {
 
     .quotetext {
         text-align: center;
+        margin-top: 35px;
     }
 
     .carservices {
@@ -963,7 +964,7 @@ h2 {
     }
 
     .copyright {
-        width: 65%;
+        width: 58%;
     }
 
     .secondlogoo {
